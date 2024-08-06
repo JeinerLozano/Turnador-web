@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingresa a tu modulo</title>
+
+    <link rel="stylesheet" href="css/styleModulo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+
+<body class="container">
+    <div class="container-prin">
+
+
+        <h1 class="titulo">Programa de Colas</h1>
+
+        <div class=" container-index">
+            <!--
+        <div class="col-6">
+
+            <a class="btn btn-primary" href="publico.html">Pantalla publica</a>
+            <a class="btn btn-secondary" href="nuevo-ticket.html">Crear Tickets</a>
+
+        </div>
+        -->
+
+            <div class="col-6">
+                <form action="escritorio.html" class="form-index">
+                    <!--<input name="escritorio" type="number" class="form-control" placeholder="Escritorio" autofocus required>-->
+                    <select name="escritorio" required class="list">
+                        <option value="1">Modulo 1</option>
+                        <option value="2">Modulo 2</option>
+                        <option value="3">Modulo 3</option>
+                        <option value="4">Modulo 4</option>
+                    </select>
+                    <!--<input name="tipo_acto" type="text"  class="form-control" placeholder="Acto" required>-->
+                    <select name="tipo_acto" required class="list">
+                        <option value="A">AUTENTICACIONES</option>
+                        <option value="B">REGISTRO CIVIL</option>
+                        <option value="C">DECLARACIONES</option>
+                        <option value="D">OTROS</option>
+                    </select>
+                    <br>
+                    <button type="submit" class="btn btn-primary list">
+                        Ingresar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

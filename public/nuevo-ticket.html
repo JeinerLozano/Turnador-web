@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nuevo Ticket</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/RESPONSIEVE.CSS">
+    <link rel="stylesheet" href="css/styleNuevoTickect.css">
+
+ 
+</head>
+
+<body>
+
+    <table>
+        <tr class="position-ticket">
+            <td>
+                <span id="lblNuevoTicket" class="num-Ticket">
+                    Cargando...
+                </span>
+            </td>
+        </tr>
+        <tr class="position-column">
+            <td class="posicion-td">
+                <button class="  btn-stile" data-letra="A">
+                    AUTENTICACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class="  btn-stile" data-letra="B">
+                    REGISTRO CIVIL
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class="  btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class="  btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class="  btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class=" btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class=" btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+            <td class="posicion-td">
+                <button class=" btn-stile" data-letra="C">
+                    DECLARACIONES
+                </button>
+            </td>
+        </tr>
+    </table>
+    <script src="js/libs/qz-tray.js"></script>
+    <script>
+        qz.websocket.connect().then(function () {
+           console.log("Conectado a QZ Tray");
+        }).catch(function (e) {
+            console.log("Error al conectar a QZ Tray: " + e);
+        });
+    </script>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/libs/socket.nuevo-ticket.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/node-forge/1.3.1/forge.min.js"></script>-->
+</body>
+
+</html>

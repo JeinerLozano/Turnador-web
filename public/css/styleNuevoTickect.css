@@ -1,0 +1,43 @@
+.num-Ticket{
+color: #4f4f4f;
+    
+}
+/*body{background: linear-gradient(to bottom right, #b0b0b0, #5d5d5d);}*/
+#lblNuevoTicket {
+    font-size: 70px;
+}
+.position-column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.position-ticket{
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+    font-size: 100px;    
+}
+
+.btn-stile{
+    border-color: #4f4f4f;
+    color: #4f4f4f;
+    cursor:pointer;
+    
+   /* padding: 40px;*/
+   width: 90%;
+   height: 90%;
+    border-radius: 4%;
+    margin: 10px;
+    background-color: #e7e7e7; 
+    font-size: 22px;
+    font-family: 'Spectral', serif;
+    font-weight:  bold;
+}
+.btn-stile:hover{
+    background-color: #d3d3d3;
+}
+
+.posicion-td{
+    width: 100%;
+
+}

@@ -1,0 +1,37 @@
+.container-index,.form-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+    font-size: 25px; 
+
+}
+.list{
+    width: 100%;
+}
+.titulo{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Spectral', serif;
+    font-weight: bold;
+}
+
+.container-prin{
+    padding: 20px 0 20px 0;/*right top left bottom*/
+   border-color: black;
+   border-radius: 2%; 
+   border-style: double;
+}
+
+
+body.container {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+
+}

@@ -1,0 +1,61 @@
+.num-Ticket{
+    color: #4f4f4f;
+        
+    }
+    /*body{background: linear-gradient(to bottom right, #b0b0b0, #5d5d5d);}*/
+    #lblNuevoTicket {
+        font-size: 70px;
+    }
+    .position-column{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .position-ticket{
+        font-family: "Varela Round", sans-serif;
+        font-style: normal;
+        font-size: 100px;    
+    }
+    
+    .btn-stile{
+        border-color: black;
+        color: black;
+        cursor:pointer;
+        
+       /* padding: 40px;*/
+        width: 100%;
+        margin-top: 15px;
+       padding: 10px 0 10px 0;
+        border-radius: 4%;
+        background-color: #e8d8c4; 
+        font-size: 22px;
+        font-family: "Varela Round", sans-serif;
+        font-style: normal;
+        font-weight:  bold;
+    }
+    .btn-stile:hover{
+        background-color: #6d2932;
+    }
+    
+    .posicion-td{
+        width: 100%;
+    
+    }
+    .formulario{
+        font-family: "Varela Round", sans-serif;
+        font-style: normal;
+        font-weight: bold;  
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        margin: 0 40px 0 40px;
+        
+    }
+    .nombre_input{
+        font-size: 15px;
+    }
+    .nombre_label{
+        font-size: 30px;
+    }

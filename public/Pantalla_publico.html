@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pantalla del publico</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,500&family=Varela+Round&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+    <link rel="stylesheet" href="css/stylePantallaPublic.css">
+
+</head>
+
+<!-- <body class="container"> -->
+
+<body>
+
+<div class="container-public">
+    <div class="container-public-principal">
+        <div class="header-principal">
+            <div class="logo"></div>
+        </div>
+        <div class="fondo-pantalla">
+        <div class="principal-th">
+            <span class="span-prin span-lef color-lef span-pad">TURNO</span>
+            <span class="span-prin span-rieght color-rieght span-pad">MODULO</span>
+        </div>
+        <div class="principal-cuerpo">
+            <span id="lblTicket1" class="ticket-actual-numero span-prin span-lef color-lef span-pad">Espere ...</span>
+            <span id="lblEscritorio1" class="ticket-actual-escritorio span-prin span-rieght color-rieght span-pad">Espere ...</span>
+        </div>
+        <div class="principal-footer">
+            <span class="span-prin span-lef span-rieght color-lef span-pad" id="lblNombre1"></span>
+        </div>
+        </div>
+        <div class="hora">
+            <div class="hora-icon"></div>
+            <div class="hora-numero">
+                <div class="hora-actual"></div>
+                <div class="fecha-actual"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-public-secundario">
+        <div class="secundario-th">
+            <span class="span-prin span-lef color-lef">TURNO</span>
+            <span class="span-prin span-rieght color-rieght">MODULO</span>
+        </div>
+        <div class="secudario-cuerpo">
+            <span id="lblTicket2" class="span-prin span-lef-second color-lef"></span>
+            <span id="lblEscritorio2" class="ticket-actual-escritorio span-prin span-rieght-second color-rieght"></span>
+        </div>
+        <div class="secundario-footer">
+            <span class="span-prin span-lef-bot span-rieght-bot color-rieght" id="lblNombre2"></span>
+        </div>
+        <div class="secudario-cuerpo">
+            <span id="lblTicket3" class="span-prin span-lef-second color-lef"></span>
+            <span id="lblEscritorio3" class="ticket-actual-escritorio span-prin span-rieght-second color-rieght"></span>
+        </div>
+        <div class="secundario-footer">
+            <span class="span-prin span-lef-bot span-rieght-bot color-rieght" id="lblNombre3"></span>
+        </div>
+        <div class="secudario-cuerpo">
+            <span id="lblTicket4" class="span-prin span-lef-second color-lef"></span>
+            <span id="lblEscritorio4" class="ticket-actual-escritorio span-prin span-rieght-second color-rieght"></span>
+        </div>
+        <div class="secundario-footer">
+            <span class="span-prin span-lef-bot span-rieght-bot color-rieght" id="lblNombre4"></span>
+        </div>
+    </div>
+</div>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/libs/socket.publico.js"></script>
+
+
+</body>
+
+</html>
